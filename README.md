@@ -6,16 +6,18 @@ SpO2, heart rate and beat detection
 
 needed liraries:
 
+```sh
 https://github.com/adafruit/Adafruit-GFX-Library
 
 https://github.com/adafruit/Adafruit-ST7735-Library
 
 https://github.com/catnull/Max30102Driver-For-Arduino
+```
 
 wiring:
 
 Sensor:
-
+```sh
 MAX30102 -- Arduino
 
 VCC -> 3.3V
@@ -25,9 +27,9 @@ GND -> GND
 SCL -> A5
 
 SDA -> A4
-
+```
 Display:
-
+```sh
 1.8 SPI -- Arduino
 
 VCC -> 3.3V
@@ -47,3 +49,4 @@ SDA -> 11
 SCL -> 13
 
 CS -> 10
+```
